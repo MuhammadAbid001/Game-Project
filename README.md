@@ -22,9 +22,9 @@ while True:
         print(f"You took {tries} tries and scored {max(score, 0)} points ")
         break
     elif guess < secret_num:
-        print("Too low, guess higher ")
+        print("Too low,guess higher ")
     else:
-        print("Too high, guess lower ")
+        print("Too high,guess lower ")
  
     if tries % 3 == 0:
         print("Keep going! You got this ")
